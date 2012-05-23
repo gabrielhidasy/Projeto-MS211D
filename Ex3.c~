@@ -1,0 +1,16 @@
+#!/bin/python
+C=51900.;
+Poup=C*1.5;
+am=751.
+jur=0.006
+//OP 1
+Poup=Poup-C;
+for(i=0;i<60;i++)
+  Poup=Poup*(1+jur);
+  Poup=Poup+am;
+print Poup;
+//OP 2
+Poup=1.5*C
+
+  
+
