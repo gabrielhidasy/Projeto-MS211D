@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main () {
-  double Vi=51900.0;
-  double Ven=25000.0;
-  double parcela=751.0;
-  int meses=60,k=0;
-  double montanteA=Ven;
-  double montanteB=Ven;
-  double chuteA=3.;
+  double Vi=52.90;
+  double Ven=0.0;
+  double parcela=5.58;
+  int meses=10,k=0;
+  double montanteA=Vi-Ven;
+  double montanteB=Vi-Ven;
+  double chuteA=7.;
   double chuteB=2.;
   double chute;
 
